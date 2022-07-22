@@ -9,7 +9,7 @@ def guess(x):#defining a function
         if(guess>random_number):
             print('too high go a little low')
         elif(guess<random_number):
-            print('too low go a little low')
+            print('too low go a little high')
 
     print (f'yayyy you guessed it right {random_number} is your number')
 
